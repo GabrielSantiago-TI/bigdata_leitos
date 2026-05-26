@@ -1,0 +1,181 @@
+html,
+body {
+    font-family: Inter, Arial, sans-serif;
+}
+
+.stApp {
+    background: #101214;
+    color: #e5e7eb;
+}
+
+.block-container {
+    padding-top: 1.2rem;
+    padding-bottom: 2rem;
+}
+
+
+/* Sidebar */
+
+section[data-testid="stSidebar"] {
+    background: #171a1f;
+    border-right: 1px solid #2f343b;
+}
+
+section[data-testid="stSidebar"] * {
+    color: #f8fafc !important;
+}
+
+
+/* Títulos */
+
+h1,
+h2,
+h3,
+h4 {
+    color: #f8fafc !important;
+    letter-spacing: 0;
+}
+
+
+/* Métricas */
+
+div[data-testid="metric-container"] {
+    background: #181c22;
+    border: 1px solid #323841;
+    border-radius: 8px;
+    padding: 14px;
+}
+
+[data-testid="stMetricLabel"] {
+    color: #a7b0bd;
+}
+
+[data-testid="stMetricValue"] {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+
+/* Containers */
+
+div[data-testid="stVerticalBlockBorderWrapper"] {
+    border-radius: 8px;
+    border-color: #323841;
+}
+
+
+/* Inputs */
+
+.stTextInput input,
+.stSelectbox div[data-baseweb="select"],
+.stMultiSelect div[data-baseweb="select"] {
+    background: #171a1f;
+    border-radius: 8px;
+    border: 1px solid #3b424c;
+    color: #f8fafc;
+}
+
+
+/* Abas */
+
+button[data-baseweb="tab"] {
+    color: #cbd5e1;
+    font-weight: 600;
+}
+
+button[data-baseweb="tab"][aria-selected="true"] {
+    color: #34d399;
+}
+
+
+/* Plotly */
+
+.js-plotly-plot {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+
+/* Simulação */
+
+.status-pill {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 92px;
+    min-height: 38px;
+    padding: 7px 10px;
+    border: 1px solid;
+    border-radius: 999px;
+    font-size: 0.95rem;
+    font-weight: 700;
+}
+
+.word-cloud {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    padding: 14px;
+    margin-bottom: 12px;
+    border: 1px solid #323841;
+    border-radius: 8px;
+    background: #181c22;
+}
+
+.word-token {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 34px;
+    padding: 7px 11px;
+    border-radius: 999px;
+    border: 1px solid #3b424c;
+    background: #20262e;
+    color: #e5e7eb;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.word-xl {
+    font-size: 1.55rem;
+    color: #34d399;
+}
+
+.word-lg {
+    font-size: 1.25rem;
+    color: #38bdf8;
+}
+
+.word-md {
+    font-size: 1.05rem;
+    color: #fbbf24;
+}
+
+.word-sm {
+    font-size: 0.92rem;
+    color: #cbd5e1;
+}
+
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #171a1f;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #3b424c;
+    border-radius: 8px;
+}
+
+
+/* Alertas */
+
+.stAlert {
+    border-radius: 8px;
+}
